@@ -35,4 +35,7 @@ function loginFun(e){
     else{
         alert("email or password is invalid")
     }
+    
 }
+let username=localStorage.getItem("username")
+document.getElementById("homeh1").innerHTML=`HI ${username}`
