@@ -37,5 +37,3 @@ function loginFun(e){
     }
     
 }
-let username=localStorage.getItem("username")
-document.getElementById("homeh1").innerHTML=`HI ${username}`
